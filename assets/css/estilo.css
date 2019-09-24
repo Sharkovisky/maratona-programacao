@@ -112,6 +112,14 @@ main table td{
 .contato__conjuntos{
     text-align: left;
 }
+.contato button{
+    color: white;
+    background: #F1C40F;
+    border: 1px solid #F1C40F;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
 footer{
     background: #F1C40F;
     text-align: center;
@@ -127,4 +135,30 @@ footer img{
 }
 .footer__texto h1{
     font-size: 20px;
+}
+
+@media(min-width: 600px){
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .menu img{
+        display: none;
+    }
+    main table{
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+    .img__mobile{
+        display: none;
+    }
+    .img__desktop{
+        max-width: 100%;
+        display: block;
+    }
+    .contato{
+        display: flex;
+        justify-content: space-around;
+    }
 }
