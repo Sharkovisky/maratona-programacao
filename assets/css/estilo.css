@@ -43,14 +43,18 @@ header h3{
 header h4{
     font-size: 18px;
 }
-.button{
+header button{
     color: white;
     display: inline-block;
     font-size: 16px;
     background: #E74C3C;
+    border: 1px solid #E74C3C;
     border-radius: 5px;
     padding: 5px 10px;
     margin: 10px 0 20px 0;
+}
+.menu__opt{
+    display: none;
 }
 
 main{
@@ -119,6 +123,7 @@ main table td{
     box-sizing: border-box;
     border-radius: 5px;
     padding: 10px 30px;
+    margin: 20px 0;
 }
 footer{
     background: #F1C40F;
@@ -141,6 +146,32 @@ footer img{
     .container{
         max-width: 1200px;
         margin: 0 auto;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    header button{
+        display: none;
+    }
+    .menu__opt{
+        display: flex;
+        background: rgba(229, 229, 229, 0.5);
+    }
+    .menu__opt ul{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+    }
+    .menu__opt ul li{
+        margin: 0 auto;
+        color: white;
+        padding: 10px 10px;
+    }
+    .menu__opt ul li a{
+        color: black;
+        text-decoration: none;
     }
     .menu img{
         display: none;
