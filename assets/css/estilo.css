@@ -165,8 +165,11 @@ footer img{
         display: inline-block;
         background-color: rgba(241, 196, 15, 0.7);
     }
-    header button{
+    .button{
         display: none;
+    }
+    header button{
+        margin: 0;
     }
     .menu__opt{
         display: flex;
