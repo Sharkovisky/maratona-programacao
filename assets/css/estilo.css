@@ -109,6 +109,8 @@ main table td{
 }
 .label{
     text-align: left;
+    display: inline-block;
+    width:200px;
 }
 .contato div input{
     width: 322px;
@@ -127,6 +129,9 @@ main table td{
     border-radius: 5px;
     padding: 10px 30px;
     margin: 20px 0;
+}
+.mensagem{
+    height: 500px;
 }
 footer{
     background: #F1C40F;
@@ -170,6 +175,8 @@ footer img{
     }
     header button{
         margin: 0;
+        padding: 0;
+        padding: 2px;
     }
     .menu__opt{
         display: flex;
@@ -182,9 +189,10 @@ footer img{
         list-style: none;
     }
     .menu__opt ul li{
-        margin: 0 auto;
+        margin: auto auto;
         color: white;
         padding: 10px 10px;
+
     }
     .menu__opt ul li a{
         color: black;
@@ -204,9 +212,15 @@ footer img{
     .img__desktop{
         max-width: 100%;
         display: block;
+        padding-bottom: 50px;
     }
     .contato{
         display: flex;
         justify-content: space-around;
+        padding-bottom: 50px;
+    }
+    .contato__conjuntos-botao{
+        display: flex;
+        justify-content: flex-end;
     }
 }
