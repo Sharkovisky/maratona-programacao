@@ -130,8 +130,8 @@ main table td{
     padding: 10px 30px;
     margin: 20px 0;
 }
-.mensagem{
-    height: 500px;
+.contato .mensagem{
+    height: 100px;
 }
 footer{
     background: #F1C40F;
